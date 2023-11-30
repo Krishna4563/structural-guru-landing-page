@@ -1,0 +1,80 @@
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  padding: 2rem;
+}
+img {
+  margin: auto;
+  margin-bottom: 5rem;
+}
+.quotes {
+  margin: 0 auto;
+  padding: 1rem;
+  border: 2px solid black;
+  border-radius: 1rem;
+  background-image: gray;
+  margin-bottom: 2rem;
+}
+.quotes-1 {
+  position: relative;
+  background-color: goldenrod;
+  border-radius: 0.5rem;
+  padding: 10px;
+  margin: auto;
+  margin-bottom: -1.57rem;
+  width: 300px;
+  height: 35px;
+  border: 2px solid rgb(175, 14, 14);
+}
+
+.course-main-div {
+  width: 80%;
+  height: 70vh;
+  border: 2px solid gold;
+  border-radius: 1.3rem;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 20px 10px rgba(44, 44, 44, 0.3);
+  margin-bottom: 7rem;
+}
+
+.center-line {
+  height: 70%;
+  border-right: 0.1px solid rgb(194, 194, 194);
+  transform: rotate(180);
+}
+
+.video-titles-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.center-line-2 {
+  width: 10%;
+  border-bottom: 0.1px solid rgb(194, 194, 194);
+}
+
+.video-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3.5rem;
+}
+
+iframe {
+  border-radius: 1.2rem;
+}
+
+.motto-quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
