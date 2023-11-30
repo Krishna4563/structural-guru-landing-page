@@ -5,10 +5,15 @@ section {
   justify-items: center;
   padding: 2rem;
 }
-img {
+
+.logo-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: auto;
   margin-bottom: 5rem;
 }
+
 .quotes {
   margin: 0 auto;
   padding: 1rem;
@@ -17,6 +22,7 @@ img {
   background-image: gray;
   margin-bottom: 2rem;
 }
+
 .quotes-1 {
   position: relative;
   background-color: goldenrod;
@@ -77,4 +83,16 @@ iframe {
   justify-content: center;
   align-items: center;
   color: white;
+}
+
+.course-img-div {
+  margin: auto;
+  box-shadow: 0 0 20px 10px rgba(44, 44, 44, 0.3);
+  border-radius: 1rem;
+}
+
+.course-img-2 {
+  width: 800px;
+  object-fit: contain;
+  border-radius: 1rem;
 }

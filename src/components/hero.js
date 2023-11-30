@@ -1,11 +1,14 @@
 import React from "react";
 import "./hero.css";
 import img1 from "../assets/img1.webp";
+import img2 from "../assets/img2.webp";
 
 const Hero = () => {
   return (
     <section>
-      <img src={img1} alt="" width={100} height={100} />
+      <div className="logo-img">
+        <img src={img1} alt="" width={100} height={100} />
+      </div>
       <p className="quotes-1">
         WELCOME TO PRACTICAL STRUCTURAL DESIGN CONSULTANCY TRAINING
       </p>
@@ -18,14 +21,14 @@ const Hero = () => {
 
       <div className="course-main-div">
         <div className="left-div">
-          <h1 className="left-title"></h1>
+          <h1 className="left-title">sample</h1>
           <div className="left-content"></div>
         </div>
 
         <div className="center-line"></div>
 
         <div className="right-div">
-          <h1 className="right-title"></h1>
+          <h1 className="right-title">sample</h1>
           <div className="right-content"></div>
         </div>
       </div>
@@ -52,6 +55,10 @@ const Hero = () => {
 
       <div className="motto-quote">
         <p>OUR MOTTO: HELP EACH OTHER ! GROW TOGETHER !! </p>
+      </div>
+
+      <div className="course-img-div">
+        <img src={img2} alt="img2" className="course-img-2" />
       </div>
     </section>
   );
