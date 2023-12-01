@@ -12,13 +12,11 @@ const Hero = () => {
       <p className="quotes-1">
         WELCOME TO PRACTICAL STRUCTURAL DESIGN CONSULTANCY TRAINING
       </p>
-
       <div className="quotes">
         <p className="quotes-2">
           HERE IS YOUR GATEWAY FOR LEARNING STRUCTURAL DESIGN IN PRACTICAL WAY !
         </p>
       </div>
-
       <div className="course-main-div">
         <div className="left-div">
           <h1 className="left-title">sample</h1>
@@ -32,7 +30,6 @@ const Hero = () => {
           <div className="right-content"></div>
         </div>
       </div>
-
       <div className="video-titles-div">
         <h1 className="yt-title1">
           ABOUT OUR PRACTICAL STRUCTURAL DESIGN CONSULTANCY TRAINING
@@ -40,7 +37,6 @@ const Hero = () => {
         <div className="center-line-2"></div>
         <h2 className="yt-title2">Watch this explanation of this training!</h2>
       </div>
-
       <div className="video-div">
         <iframe
           width="900"
@@ -52,15 +48,12 @@ const Hero = () => {
           allowFullScreen
         ></iframe>
       </div>
-
       <div className="motto-quote">
         <p>OUR MOTTO: HELP EACH OTHER ! GROW TOGETHER !! </p>
       </div>
-
       <div className="course-img-div">
         <img src={img2} alt="img2" className="course-img-2" />
       </div>
-
       <div className="training-info-div">
         <h1 className="training-heading">TO WHOM THIS TRAINING IS FOR?</h1>
         <div className="training-targets">
@@ -80,30 +73,108 @@ const Hero = () => {
           <li>Builders/Promoters</li>
         </div>
       </div>
-
       <div className="payment-info-div">
-        <h1 className="payment-title">Procedure to Enroll Online VIDEO mode Training</h1>
-        
+        <h1 className="payment-title">
+          Procedure to Enroll Online VIDEO mode Training
+        </h1>
+
         <div className="payment-container">
           <p className="payment-info1">
-            Our present special discount Offer training fee of JUST ₹ 3500/- only for the first come 100 registrations of PRACTICAL STRUCTURAL DESIGN CONSULTANCY TRAINING in 200 hrs video mode will expire soon, and there after the price of training will be increased. Avail before offer expiry, from link :
+            Our present special discount Offer training fee of JUST ₹ 3500/-
+            only for the first come 100 registrations of PRACTICAL STRUCTURAL
+            DESIGN CONSULTANCY TRAINING in 200 hrs video mode will expire soon,
+            and there after the price of training will be increased. Avail
+            before offer expiry, from link :
           </p>
-          <a href="https://rzp.io/l/phBlT9OqT" target="_blank" rel="noreferrer" className="payment-link">https://rzp.io/l/phBlT9OqT</a>
-          
+          <a
+            href="https://rzp.io/l/phBlT9OqT"
+            target="_blank"
+            rel="noreferrer"
+            className="payment-link"
+          >
+            https://rzp.io/l/phBlT9OqT
+          </a>
+
           <p className="or">or</p>
 
           <p className="payment-info2">
-            By paying Rs.3500/- directly to UPI gpay/phonepay/Paytm no. 9629121300. After payment send receipt & gmail id to WhatsApp no. +91-9629121300. We will dispatch the course contents to your gmail id and google drive.
+            By paying Rs.3500/- directly to UPI gpay/phonepay/Paytm no.
+            9629121300. After payment send receipt & gmail id to WhatsApp no.
+            +91-9629121300. We will dispatch the course contents to your gmail
+            id and google drive.
           </p>
         </div>
       </div>
-
-      <div className="course-img-div">
+      {/* <div className="course-img-div">
         <img src={img1} alt="img2" className="course-img-2" />
+      </div> */}
+      {/* section1 */}
+      <div className="google-review-div">
+        <h1 className="google-review-title">
+          VIEW GOOGLE REVIEWS OF THE TRAINING
+        </h1>
+        <div className="google-div">
+          <iframe
+            width="900"
+            height="550"
+            src="https://www.youtube.com/embed/XDGgj2UELBI?si=bhSTa7UduJbwELxp"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+      <div className="text-review-div">
+        <div className="text-review">
+          <div className="star-img"></div>
+          <p className="review">"It's a good platform to start from basics."</p>
+          <h2 className="reviewer-name">Manik Reddy</h2>
+        </div>
+
+        <div className="text-review">
+          <div className="star-img"></div>
+          <p className="review">
+            "If you want to be structural artist, this is the best platform."
+          </p>
+          <h2 className="reviewer-name">Shashi Shekhar Singh</h2>
+        </div>
+
+        <div className="text-review">
+          <div className="star-img"></div>
+          <p className="review">"Great course."</p>
+          <h2 className="reviewer-name">Sanjay Kakade</h2>
+        </div>
+
+        <div className="text-review">
+          <div className="star-img"></div>
+          <p className="review">
+            "Very helpful for me. Got great exposure for structural engineering
+            here. Great response for any query by their side."
+          </p>
+          <h2 className="reviewer-name">VK Mishra</h2>
+        </div>
       </div>
 
-      {/* section1 */}
+      <div className="video-review-div">
+        <h1 className="video-review-title">VIDEO REVIEWS OF THIS TRAINING</h1>
 
+        <div className="video-review-main-div">
+          <div className="video-box">
+            <p className="reviewer-resignation"></p>
+            <iframe
+              width="900"
+              height="550"
+              src="https://www.youtube.com/embed/XDGgj2UELBI?si=bhSTa7UduJbwELxp"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+            <p className="bottom-review"></p>
+          </div>
+        </div>
+      </div>
     </section>
   );
 };
