@@ -60,6 +60,50 @@ const Hero = () => {
       <div className="course-img-div">
         <img src={img2} alt="img2" className="course-img-2" />
       </div>
+
+      <div className="training-info-div">
+        <h1 className="training-heading">TO WHOM THIS TRAINING IS FOR?</h1>
+        <div className="training-targets">
+          <li>Civil/Structural Aspirants</li>
+          <li>Entrepreneurs</li>
+          <li>Site Engineers</li>
+          <li>Construction Engineers</li>
+          <li>Project Engineers</li>
+          <li>Planning Engineers</li>
+          <li>Quantity Surveyors</li>
+          <li>QA/QC Engineers</li>
+          <li>Project Managers</li>
+          <li>Draftsmen</li>
+          <li>Design Engineers</li>
+          <li>Engineering Students</li>
+          <li>Architects</li>
+          <li>Builders/Promoters</li>
+        </div>
+      </div>
+
+      <div className="payment-info-div">
+        <h1 className="payment-title">Procedure to Enroll Online VIDEO mode Training</h1>
+        
+        <div className="payment-container">
+          <p className="payment-info1">
+            Our present special discount Offer training fee of JUST ₹ 3500/- only for the first come 100 registrations of PRACTICAL STRUCTURAL DESIGN CONSULTANCY TRAINING in 200 hrs video mode will expire soon, and there after the price of training will be increased. Avail before offer expiry, from link :
+          </p>
+          <a href="https://rzp.io/l/phBlT9OqT" target="_blank" rel="noreferrer" className="payment-link">https://rzp.io/l/phBlT9OqT</a>
+          
+          <p className="or">or</p>
+
+          <p className="payment-info2">
+            By paying Rs.3500/- directly to UPI gpay/phonepay/Paytm no. 9629121300. After payment send receipt & gmail id to WhatsApp no. +91-9629121300. We will dispatch the course contents to your gmail id and google drive.
+          </p>
+        </div>
+      </div>
+
+      <div className="course-img-div">
+        <img src={img1} alt="img2" className="course-img-2" />
+      </div>
+
+      {/* section1 */}
+
     </section>
   );
 };
